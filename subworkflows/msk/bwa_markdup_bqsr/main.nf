@@ -1,4 +1,4 @@
-include { BWA_MEM                      } from '../../../modules/nf-core/bwa/mem/main'
+include { BWA_MEM                      } from '../../../modules/msk/bwa/mem/main'
 include { GATK4_MARKDUPLICATES         } from '../../../modules/nf-core/gatk4/markduplicates/main'
 include { GATK4_MARKDUPLICATES_SPARK   } from '../../../modules/nf-core/gatk4/markduplicatesspark/main'
 include { GATK4_APPLYBQSR              } from '../../../modules/nf-core/gatk4/applybqsr/main'
